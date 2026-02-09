@@ -105,7 +105,6 @@ gnb.fit(train, train_labels)
 preds = gnb.predict(test)
 print("Accuracy:", accuracy_score(test_labels, preds))
 ```
-
 ---
 
 ## 📊 Model Performance
@@ -113,7 +112,6 @@ print("Accuracy:", accuracy_score(test_labels, preds))
 * **Algorithm:** Gaussian Naive Bayes
 * **Accuracy:** ~97%
 * The model correctly classifies tumors in most test cases, making it reliable for basic medical classification tasks.
-
 ---
 
 ## 🧠 Why Naive Bayes?
@@ -143,7 +141,3 @@ print("Accuracy:", accuracy_score(test_labels, preds))
 * Integrate with Django or Flask backend
 
 ---
-
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
